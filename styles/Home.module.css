@@ -1,0 +1,88 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.body-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  align-self: center;
+  margin: 100px;
+  background-color: rgba(240, 229, 229, 0.699);
+  border-radius: 3%;
+}
+
+.home-heading{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: black;
+  align-self: center;
+  margin: 10px;
+}
+
+.welcome-line{
+  font-weight: 700;
+  font-size: 1.5rem;
+  align-self: center;
+}
+
+.home-sub-heading{
+  font-weight: 500;
+  font-size: 1.3rem;
+  align-self: center;
+  margin-top: 0px;
+}
+
+.blogs-card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.blog-card-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 2px solid darkblue;
+  margin: 20px;
+  border-radius: 5%;
+  background-color: rgb(202, 194, 194);
+  transition: transform .2s;
+}
+
+.blog-card-container:hover{
+  transform: scale(1.1);
+}
+
+.company-image-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 50%;
+  border: 2px solid darkblue;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.company-image{
+  border-radius: 50%;
+}
+
+.blogs-title{
+  color: black;
+  font-weight: 600;
+  align-self: center;
+  margin: 25px;
+}
